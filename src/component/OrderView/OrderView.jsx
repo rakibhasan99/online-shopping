@@ -2,9 +2,9 @@ import React from 'react';
 import './OrderView.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrashAlt } from '@fortawesome/free-solid-svg-icons';
-const OrderView = ({product}) => {
+const OrderView = ({product, handleRemoveCart}) => {
     console.log(product);
-    const {img, name, price, quantity} = product;
+    const {id, img, name, price, quantity} = product;
     return (
         <div className='view-container'>
             <img src={img} alt="" />
@@ -13,7 +13,7 @@ const OrderView = ({product}) => {
                 <p className='view-price'>Price: <span className='price-orange'>${price}</span></p>
                 <p className='view-quantity'>Product Quantity: <span className='price-orange'>{quantity}</span></p>
             </div>
-            <button className='view-btn'><FontAwesomeIcon className='delete-icon' icon={faTrashAlt}/></button>
+            <button onClick={() => handleRemoveCart(id)} className='view-btn'><FontAwesomeIcon className='delete-icon' icon={faTrashAlt}/></button>
         </div>
     );
 };
