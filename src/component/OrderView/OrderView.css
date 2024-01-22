@@ -1,0 +1,73 @@
+.view-container {
+    width: 571px;
+    border: 1px solid gray;
+    height: 110px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: 8px 23px 8px 8px;
+
+}
+
+.view-container img {
+    width: 91px;
+    height: 91px;
+    /* border: 1px solid gold; */
+    border-radius: 6px;
+}
+
+.view-details {
+    flex-grow: 1;
+    margin: 0 15px;
+}
+
+.view-details .view-title {
+    font-size: 21px;
+    font-family: "Lato";
+    font-weight: 400;
+    color: rgba(28, 43, 53, 1);
+    margin: 0;
+}
+
+.price-orange {
+    font-size: 15px;
+    font-family: "Lato";
+    font-weight: 400;
+    color: rgba(255, 153, 0, 1);
+}
+
+.view-title .view-price {
+    font-size: 15px;
+    font-family: "Lato";
+    font-weight: 400;
+    color: rgba(28, 43, 53, 1);
+    color: transparent;
+}
+
+.view-title .view-quantity {
+    font-size: 15px;
+    font-family: "Lato";
+    font-weight: 400;
+    color: rgba(28, 43, 53, 1);
+}
+
+.view-details p {
+    margin: 0;
+}
+
+/* btn style here */
+.view-btn{
+    background-color: rgba(235, 87, 87, 0.3);
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.delete-icon{
+    height: 37px;
+    width: 37px;
+    color: rgba(235, 87, 87, 1);
+}

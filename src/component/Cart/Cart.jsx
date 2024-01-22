@@ -20,6 +20,7 @@ const Cart = ({cart}) => {
     const totalPrice = total + shipping + tax;
 return (
         <div className='cart'>
+            <h4>Order Summary</h4>
             <p>Selected Items: {quantity}</p>
             <p>Total Price: ${total}</p>
             <p>Total Shipping Charge: ${shipping}</p>

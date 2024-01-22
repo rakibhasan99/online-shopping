@@ -1,10 +1,23 @@
-.cart{
-    margin-left: 20px;
-    margin-top: 0;
+.cart {
+    margin-right: 0;
+    background-color: rgb(248, 190, 119);
+    height: 570px;
+    position: sticky;
+    top: 0;
+    padding: 20px;
 }
-.cart h5{
+
+.cart h4 {
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid rgb(189, 189, 189);
+    padding-bottom: 5px;
+    color: #696969;
+}
+
+.cart h5 {
     font-size: 18px;
     font-weight: 500;
     margin-top: 0;
-    color: 	#696969;
+    color: #696969;
 }

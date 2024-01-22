@@ -44,10 +44,7 @@ const Shop = () => {
     }
     return (
         <div className='shop-container'>
-            <div className='product-container'>
-                {
-                    products.map(product => console.log(product))
-                }
+            <div className='products-container'>
                 {
                     products.map(product => <Product
                         key={product.id}
@@ -57,7 +54,6 @@ const Shop = () => {
                 }
             </div>
             <div className='cart-container'>
-                <h4>Order summary</h4>
                 <Cart
                     cart={cart}
                 ></Cart>
